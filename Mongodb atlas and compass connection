@@ -1,0 +1,25 @@
+1) Visit mongoDB atlas(url below)
+
+2) Create an account in mongoDB atlas, If you don't have one!
+
+3) Sign in and create a new project.
+
+4) Create a cluster for your project.
+  a) select the free Amazon server
+  //Creating cluster may take a while
+ 
+5) Once cluster is created, setup connection
+   a) click connect 
+   b) setup connectivity by creating first db user and password
+      Whitelist your IP (to allow connection)
+   c) click on choose a connection method
+   d) select connect with mongodb compass
+   e) copy connection string and paste it in the url bar(change default username and password)
+6) Install mongoDB compass, in case if you don't have.
+7) open Mongodb compass, it will automatically detect the incoming connection.
+8) click on connect.
+
+This will display your created cluster, where you can create databases and collections.
+
+
+:)
