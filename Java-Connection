@@ -1,0 +1,25 @@
+MongoDB and Java Interactions
+
+package com.company;
+
+import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+import org.bson.Document;
+
+public class Main 
+{Mo
+
+    public static void main(String[] args)
+    {
+        String uri="mongodb+srv://admin:admin@v-mongodb-re3hn.mongodb.net/test";
+        MongoClientURI mongoClientURI = new MongoClientURI(uri);
+        MongoClient mongoClient=new MongoClient(mongoClientURI);
+        
+        MongoDatabase mongoDatabase=mongoClient.getDatabase("V-Database");
+        MongoCollection collection=mongoDatabase.getCollection("V-collection");
+     }
+}
+                                            
+        
