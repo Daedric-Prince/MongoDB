@@ -1,7 +1,8 @@
 # MongoDB
 Mongodb Java Interactions
 
-Tools:
+Tools used:
+
 IDE- IntelliJ
 Mongo Atlas
 Mongo Compass
